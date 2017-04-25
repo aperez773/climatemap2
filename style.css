@@ -73,6 +73,8 @@ form {
 
 .geojson-point-marker {
   radius: 3;
+  fill: lightgreen;
+  stroke: lightgreen;
 }
 
 .loader,
