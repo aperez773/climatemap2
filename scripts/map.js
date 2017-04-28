@@ -501,7 +501,7 @@ $(window).on('load', function() {
         opacity: 1,
         color: getColor(value),
         fillOpacity: tryPolygonSetting(polygon, '_colorOpacity', '0.7'),
-        fillColor: 'getColor(value)'
+        fillColor: getColor(value)
       }
     } else {
       return {  // Polygon and Polyline style
